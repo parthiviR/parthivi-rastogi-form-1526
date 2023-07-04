@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    max-width: 50rem;
+    width: 100%;
+    padding: 0rem 2rem 2rem 2rem;
+    background-color: #dddd;
+    border: 2px solid rgb(194, 191, 191);
+    border-radius: 5px;
+  }
+
+  .form input,
+  .form textarea {
+    display: block;
+    padding: 0.5rem;
+ 
+  }
+  legend{
+    background-color: #ffffffdd;
+    font-size: 2rem;
+    width: 8em ;
+    padding: 1rem;   
+    border: 2px solid rgb(194, 191, 191);
+  }
+  label{
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  button{
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #6495ED;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+  }
+
+@media only screen and (min-width: 25rem){
+
+}
+@media only screen and (min-width: 40rem) and (max-width:50rem) {
+
+}
