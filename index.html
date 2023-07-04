@@ -12,11 +12,17 @@
     <div class="container">
         <form class="form">
             <legend>Form Assignment</legend>
-            <label for="fullname">Full Name</label> 
-            <input  placeholder="Enter name here" type="text" id="fullname">
-            <label for="email">Email</label> 
-            <input  placeholder="Enter email" type="text" id="email">
-            <label for="message">Message</label> 
+            <div class="inputelem">
+                <div class="innerclass">
+                    <label for="fullname">Full Name</label>
+                    <input placeholder="Enter name here" type="text" id="fullname">
+                </div>
+                <div class="innerclass">
+                    <label for="email">Email</label>
+                    <input placeholder="Enter email" type="text" id="email">
+                </div>
+            </div>
+            <label for="message">Message</label>
             <textarea placeholder="Enter message here." id="message"></textarea>
             <button id="submit-button" type="submit">Submit</button>
         </form>

@@ -35,7 +35,7 @@ body{
   }
   label{
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 1em ;
   }
   button{
     padding: 1em;
@@ -46,9 +46,29 @@ body{
     color: white;
     font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
   }
+.inputelem{
+    margin-top: 1em;
+}
+.innerclass{
+    flex:1;
+    padding-bottom: 1em;
+}
+.innerclass input[type="text"]{
+    width: 95%;
+    margin-top: 1em;
+    }
 
 @media only screen and (min-width: 25rem){
-
+.inputelem{
+    display: flex;
+    margin-top: 1em;
+}
+.innerclass{
+    flex:1;
+}
+.innerclass input[type="text"]{
+ width: 90%;
+}
 }
 @media only screen and (min-width: 40rem) and (max-width:50rem) {
 
